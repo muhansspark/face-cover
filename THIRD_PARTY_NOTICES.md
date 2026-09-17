@@ -1,0 +1,7 @@
+# Third-party assets
+
+- MediaPipe Tasks Vision 0.10.32, Google, Apache License 2.0. Distributed runtime files in `vendor/` originate from https://www.npmjs.com/package/@mediapipe/tasks-vision. License: `vendor/LICENSE-mediapipe.txt`.
+- BlazeFace short-range face detector, float16 version 1, Google MediaPipe. Model source: https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite . Model documentation: https://ai.google.dev/edge/mediapipe/solutions/vision/face_detector . See upstream model documentation for scope and limitations.
+- Runtime and model files are bundled unchanged. All photo processing is performed locally in the browser; no external CDN is used while the app runs.
+- heic-to 1.5.2 (CSP build), Hopper Gee, LGPL-3.0. Unmodified, separately replaceable module: `vendor/heic-to.js`. License: `vendor/LICENSE-heic-to.txt`. Package/source: https://www.npmjs.com/package/heic-to/v/1.5.2 and https://github.com/hoppergee/heic-to . Bundled libheif version 1.22.2, source and build instructions: https://github.com/strukturag/libheif/releases/tag/v1.22.2 and the heic-to repository README. This app does not restrict modification or reverse engineering of the LGPL library for debugging those modifications.
+- fflate 0.8.2, Arjun Barrett, MIT. Unmodified module `vendor/fflate.js`, license `vendor/LICENSE-fflate.txt`. Source: https://github.com/101arrowz/fflate/tree/v0.8.2 .
